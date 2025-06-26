@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Request a Quote | Prakash Transport Service</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <h1><a href="index.html">Prakash Transport Service</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="fleet.html">Fleet</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <div id="main" class="container">
+    <section>
+      <header class="major">
+        <h2>Request a Quote</h2>
+        <p>Tell us your transport requirement and our team will get back to you quickly with the best options.</p>
+      </header>
+
+      <form action="https://formspree.io/f/mjkrengg" method="POST">
+        <div class="row uniform 50%">
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="6u 12u$(xsmall)">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="12u">
+            <input type="text" name="phone" placeholder="Phone Number (Optional)" />
+          </div>
+
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="source" placeholder="Trip Source City" required />
+          </div>
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="destination" placeholder="Trip Destination City" required />
+          </div>
+
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="vehicle_type" placeholder="Type of Vehicle Required (e.g. 20ft truck)" required />
+          </div>
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="weight" placeholder="Weight of Material (in tons)" required />
+          </div>
+
+          <div class="12u">
+            <textarea name="material_type" placeholder="Type of Material (e.g. steel, FMCG goods)" rows="3" required></textarea>
+          </div>
+
+          <div class="12u">
+            <textarea name="message" placeholder="Any additional notes (optional)" rows="4"></textarea>
+          </div>
+
+          <div class="12u">
+            <ul class="actions">
+              <li><input type="submit" value="Send Request" class="special" /></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Optional Extras -->
+        <input type="hidden" name="_subject" value="New Transport Quote Request from Website">
+        <input type="hidden" name="_redirect" value="https://yourdomain.com/thankyou.html">
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li>
+      <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+    <p>&copy; Prakash Transport Service. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
