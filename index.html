@@ -9,23 +9,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Lato', sans-serif; margin: 0; line-height: 1.6; color: #333; }
-    header { background: #4d148c; color: #fff; padding: 15px 20px; position: sticky; top: 0; z-index: 100; }
+    header { background: #392e6e; color: #fff; padding: 15px 20px; position: sticky; top: 0; z-index: 100; }
     header h1 { margin: 0; font-size: 1.5rem; }
     header nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 15px; }
     header nav a { color: #fff; text-decoration: none; font-weight: 700; }
-    header nav a:hover { color: #ff6600; }
-    #hero { background: linear-gradient(to right, #4d148c, #ff6600); color: #fff; text-align: center; padding: 120px 20px; }
+    header nav a:hover { color: #dd6c1f; }
+    #hero { background: linear-gradient(to right, #392e6e, #dd6c1f); color: #fff; text-align: center; padding: 120px 20px; }
     #hero h1 { margin: 0 0 20px; font-size: 2.8rem; }
     #hero p { font-size: 1.2rem; margin-bottom: 30px; }
-    .button { background: #ff6600; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; }
+    .button { background: #dd6c1f; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; }
     section { padding: 60px 20px; text-align: center; }
-    h2 { color: #4d148c; margin-bottom: 20px; }
+    h2 { color: #392e6e; margin-bottom: 20px; }
     .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
     .grid .box { flex: 1 1 250px; padding: 20px; background: #f9f9f9; border-radius: 5px; text-align: center; }
-    .grid .box i { font-size: 2.5rem; margin-bottom: 15px; color: #4d148c; }
+    .grid .box i { font-size: 2.5rem; margin-bottom: 15px; color: #392e6e; }
     #features { background: #f6f6f6; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .gallery img { width: 100%; max-width: 400px; border-radius: 5px; }
     form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
-    form button { background: #ff6600; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; cursor: pointer; }
+    form button { background: #dd6c1f; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; cursor: pointer; }
     footer { text-align: center; background: #333; color: #fff; padding: 20px; }
   </style>
 </head>
@@ -48,13 +50,13 @@
   <section id="hero">
     <h1>Connecting India, One Route at a Time</h1>
     <p>Reliable transport solutions with a nationwide network of verified partners.</p>
-    <a href="#contact" class="button">Request a Quote</a>
+    <a href="contact.html" class="button">Request a Quote</a>
   </section>
 
   <!-- About -->
   <section id="about">
     <h2>About Us</h2>
-    <p>Since 1985, we have provided dependable logistics services across India. Our partnerships with trusted fleets ensure you always get the right vehicle for every shipment.</p>
+    <p>Since 1982, we have provided dependable logistics services across India. Our partnerships with trusted fleets ensure you always get the right vehicle for every shipment.</p>
   </section>
 
   <!-- Services -->
@@ -109,29 +111,22 @@
   <!-- Fleet -->
   <section id="fleet">
     <h2>Our Fleet &amp; Network</h2>
+
     <p>Access trailers, containers, reefers and more. We match your cargo with the best vehicle quickly and efficiently.</p>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Request a Quote</h2>
-    <form action="https://formspree.io/f/your_form_id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="text" name="phone" placeholder="Phone Number (Optional)">
-      <input type="text" name="source" placeholder="Trip Source City" required>
-      <input type="text" name="destination" placeholder="Trip Destination City" required>
-      <input type="text" name="vehicle_type" placeholder="Type of Vehicle Required" required>
-      <input type="text" name="weight" placeholder="Weight (in tons)" required>
-      <textarea name="material_type" placeholder="Type of Material" rows="3" required></textarea>
-      <textarea name="message" placeholder="Any additional notes (optional)" rows="3"></textarea>
-      <button type="submit">Send Request</button>
-    </form>
-  </section>
+<!-- Gallery -->
+<section id="gallery" class="gallery">
+  <img src="images/pic01.jpg" alt="Our fleet in action">
+  <img src="Indian-Road-Logistics.jpg" alt="Logistics network map">
+</section>
+
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Prakash Transport Service. All rights reserved.</p>
+
   </footer>
 
 </body>
+</html>
