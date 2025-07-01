@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Prakash Transport Service | Connecting India</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="assets/css/hyer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Prakash Transport Service</h1>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="fleet.html">Fleet</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Prakash Transport Service</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="fleet.html">Fleet</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section class="hero">
-    <h1>Connecting India, One Route at a Time</h1>
-    <p>Dependable transport solutions since 1982</p>
-    <a href="contact.html" class="btn">Request a Quote</a>
+  <section class="hero text-white">
+    <div class="container">
+      <h1>Connecting India, One Route at a Time</h1>
+      <p>Dependable transport solutions since 1982</p>
+      <a href="contact.html" class="btn btn-primary btn-lg">Request a Quote</a>
+    </div>
   </section>
 
-  <section class="about light">
-    <h2>About Us</h2>
-    <p>For over four decades we have linked businesses with reliable vehicles across the country. Our network of trusted partners ensures your cargo is delivered safely and on time.</p>
+  <section class="section-padding">
+    <div class="container text-center">
+      <h2>About Us</h2>
+      <p class="lead">For over four decades we have linked businesses with reliable vehicles across the country. Our network of trusted partners ensures your cargo is delivered safely and on time.</p>
+    </div>
   </section>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="grid">
-      <div class="card">
-        <i class="fa fa-truck"></i>
-        <h3>Full &amp; Part Loads</h3>
-        <p>Flexible solutions for shipments of any size.</p>
-      </div>
-      <div class="card">
-        <i class="fa fa-map"></i>
-        <h3>Nationwide Reach</h3>
-        <p>Coverage across major Indian routes.</p>
-      </div>
-      <div class="card">
-        <i class="fa fa-clock"></i>
-        <h3>Priority Dispatch</h3>
-        <p>Quick vehicle matching keeps you on schedule.</p>
+  <section class="section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <i class="fa fa-truck fa-2x mb-3 text-primary"></i>
+          <h3>Full &amp; Part Loads</h3>
+          <p>Flexible solutions for shipments of any size.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fa fa-map fa-2x mb-3 text-primary"></i>
+          <h3>Nationwide Reach</h3>
+          <p>Coverage across major Indian routes.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fa fa-clock fa-2x mb-3 text-primary"></i>
+          <h3>Priority Dispatch</h3>
+          <p>Quick vehicle matching keeps you on schedule.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="gallery light">
-    <img src="images/pic01.jpg" alt="Fleet image">
-    <img src="Indian-Road-Logistics.jpg" alt="Logistics network">
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <img src="images/pic01.jpg" class="img-fluid rounded" alt="Fleet image">
+        </div>
+        <div class="col-md-6">
+          <img src="Indian-Road-Logistics.jpg" class="img-fluid rounded" alt="Logistics network">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Prakash Transport Service. Established 1982.</p>
+  <footer class="text-center py-4">
+    <p class="mb-0">&copy; 2025 Prakash Transport Service. Established 1982.</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
