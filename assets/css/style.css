@@ -33,23 +33,4 @@ footer {
   background: #343a40;
   color: #fff;
 }
-.quote-bg {
-  position: relative;
-  color: #fff;
-  overflow: hidden;
-}
-.quote-bg::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(-45deg, #f39200, #ffb347, #ffd27f, #f39200);
-  background-size: 400% 400%;
-  animation: gradientMove 12s ease infinite;
-  z-index: -1;
-  opacity: 0.85;
-}
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+
