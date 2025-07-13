@@ -15,8 +15,6 @@ body {
 }
 .hero {
   background: url('../images/pic01.jpg') center/cover no-repeat;
-  color: #000;
-  padding: 120px 0;
   text-align: center;
   position: relative;
 }
