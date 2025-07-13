@@ -16,9 +16,6 @@ body {
   border-color: #d67900;
 }
 .hero {
-  background-color: whitesmoke;
-  color: #000;
-  padding: 120px 0;
   text-align: center;
   position: relative;
   display: flex;
@@ -30,7 +27,6 @@ body {
 /* Hero image overrides removed; using uniform color */
 
 .hero::before {
-  content: none;
 }
 
 .hero .container {
