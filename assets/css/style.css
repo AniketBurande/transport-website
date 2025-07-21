@@ -38,7 +38,7 @@ body {
 }
 .hero p {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .section-padding {
   padding: 60px 0;
@@ -51,11 +51,11 @@ footer {
 /* Specific styling for the home page hero so its content, including the
    "Request a Quote" button, stays vertically centered in the viewport. */
 .hero-center {
-  height: 100vh;
+  height: 75vh;
 }
 
 /* Reduce space between the home hero section and the following section */
 .hero-center + .section-padding {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
