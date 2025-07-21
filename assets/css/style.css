@@ -51,6 +51,6 @@ footer {
 /* Specific styling for the home page hero so its content, including the
    "Request a Quote" button, stays vertically centered in the viewport. */
 .hero-center {
-  height: 100vh;
+  min-height: 80vh;
 }
 
