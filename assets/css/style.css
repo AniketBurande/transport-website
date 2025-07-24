@@ -81,3 +81,38 @@ footer {
   background-color: #1da851;
 }
 
+/* Customer logos scrolling section */
+.customer-section {
+  background: #f8f9fa;
+}
+
+.customer-logos {
+  overflow: hidden;
+}
+
+.customer-logos .logos-slide {
+  display: flex;
+  width: calc(160px * 14);
+  animation: logo-scroll 40s linear infinite;
+}
+
+.customer-logos .logo-item {
+  flex: 0 0 auto;
+  padding: 0 20px;
+}
+
+.customer-logos .logo-item img {
+  height: 80px;
+  width: 160px;
+  object-fit: contain;
+}
+
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-160px * 7));
+  }
+}
+
