@@ -97,7 +97,6 @@ footer {
 .customer-logos .logos-slide-left {
   width: calc(160px * 16);
   animation: logo-scroll-left 30s linear infinite;
-  margin-bottom: 30px;
 }
 
 .customer-logos .logos-slide-right {
