@@ -83,7 +83,7 @@ footer {
 
 /* Customer logos scrolling section */
 .customer-section {
-  background: #f8f9fa;
+  background: #fff;
 }
 
 .customer-logos {
@@ -106,7 +106,7 @@ footer {
 
 .customer-logos .logo-item {
   flex: 0 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .customer-logos .logo-item img {
