@@ -7,6 +7,9 @@ body {
 .navbar-brand {
   font-weight: 600;
 }
+.navbar-brand img.logo {
+  width: auto;
+}
 .btn-primary {
   background-color: #f39200;
   border-color: #f39200;
