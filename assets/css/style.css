@@ -7,6 +7,9 @@ body {
 .navbar-brand {
   font-weight: 600;
 }
+.navbar-brand img.logo {
+  width: auto;
+}
 .btn-primary {
   background-color: #f39200;
   border-color: #f39200;
@@ -79,58 +82,5 @@ footer {
 .whatsapp-float:hover {
   text-decoration: none;
   background-color: #1da851;
-}
-
-/* Customer logos scrolling section */
-.customer-section {
-  background: #fff;
-}
-
-.customer-logos {
-  overflow: hidden;
-}
-
-.customer-logos .logos-slide {
-  display: flex;
-  width: max-content;
-  white-space: nowrap;
-}
-
-.customer-logos .logos-slide-left {
-  animation: logo-scroll-left 20s linear infinite;
-  margin-bottom: 30px;
-}
-
-.customer-logos .logos-slide-right {
-  animation: logo-scroll-right 20s linear infinite;
-}
-
-.customer-logos .logo-item {
-  flex: 0 0 auto;
-  padding: 0 10px;
-}
-
-.customer-logos .logo-item img {
-  height: 80px;
-  width: 160px;
-  object-fit: contain;
-}
-
-@keyframes logo-scroll-left {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-@keyframes logo-scroll-right {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
 
