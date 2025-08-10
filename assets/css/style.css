@@ -84,3 +84,55 @@ footer {
   background-color: #1da851;
 }
 
+/* Customer logo marquee */
+.customer-section {
+  background-color: #fff;
+}
+
+.customer-logos {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* space between rows */
+  padding: 20px 0;
+}
+
+.logos-row {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* reduced space between logos */
+  width: max-content;
+}
+
+.logo-item img {
+  height: 60px;
+  background-color: #fff;
+  object-fit: contain;
+}
+
+.move-left {
+  animation: moveLeft 20s linear infinite;
+}
+
+.move-right {
+  animation: moveRight 20s linear infinite;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
