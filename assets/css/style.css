@@ -121,21 +121,28 @@ footer {
   object-fit: contain;
 }
 
-.move-left,
-.move-right {
-  animation: marquee 20s linear infinite;
+.move-left {
+  animation: marquee-left 20s linear infinite;
 }
 
-/* Top row moves left-to-right */
 .move-right {
-  animation-direction: reverse;
+  animation: marquee-right 20s linear infinite;
 }
 
-@keyframes marquee {
+@keyframes marquee-left {
   from {
     transform: translateX(100%);
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
   }
 }
