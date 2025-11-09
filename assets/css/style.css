@@ -146,3 +146,38 @@ footer {
     transform: translateX(100%);
   }
 }
+
+.counter-row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.counter-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.counter-number {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #f39200;
+}
+
+.counter-label {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #333333;
+}
+
+@media (max-width: 767.98px) {
+  .counter-card {
+    padding: 20px 15px;
+  }
+
+  .counter-number {
+    font-size: 2rem;
+  }
+}
